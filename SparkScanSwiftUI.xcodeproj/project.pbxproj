@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC9EAB0B2AC4635200CCCBEE /* SparkScanSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9EAB0A2AC4635200CCCBEE /* SparkScanSwiftUIApp.swift */; };
+		DC9EAB0D2AC4635200CCCBEE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9EAB0C2AC4635200CCCBEE /* ContentView.swift */; };
+		DC9EAB0F2AC4635300CCCBEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC9EAB0E2AC4635300CCCBEE /* Assets.xcassets */; };
+		DC9EAB122AC4635300CCCBEE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC9EAB112AC4635300CCCBEE /* Preview Assets.xcassets */; };
+		DC9EAB192AC4636500CCCBEE /* SparkScanSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9EAB182AC4636500CCCBEE /* SparkScanSwiftUI.swift */; };
+		DC9EAB1B2AC4638100CCCBEE /* SparkScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9EAB1A2AC4638100CCCBEE /* SparkScanViewController.swift */; };
+		DCD6116D2AC5C86A00A3C108 /* ScanditBarcodeCapture in Frameworks */ = {isa = PBXBuildFile; productRef = DCD6116C2AC5C86A00A3C108 /* ScanditBarcodeCapture */; };
+		DCD6116F2AC5C86A00A3C108 /* ScanditCaptureCore in Frameworks */ = {isa = PBXBuildFile; productRef = DCD6116E2AC5C86A00A3C108 /* ScanditCaptureCore */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DC9EAB072AC4635200CCCBEE /* SparkScanSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SparkScanSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC9EAB0A2AC4635200CCCBEE /* SparkScanSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SparkScanSwiftUIApp.swift; sourceTree = "<group>"; };
+		DC9EAB0C2AC4635200CCCBEE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DC9EAB0E2AC4635300CCCBEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC9EAB112AC4635300CCCBEE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DC9EAB182AC4636500CCCBEE /* SparkScanSwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SparkScanSwiftUI.swift; sourceTree = "<group>"; };
+		DC9EAB1A2AC4638100CCCBEE /* SparkScanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SparkScanViewController.swift; sourceTree = "<group>"; };
+		DC9EAD162AC475E500CCCBEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC9EAB042AC4635200CCCBEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCD6116D2AC5C86A00A3C108 /* ScanditBarcodeCapture in Frameworks */,
+				DCD6116F2AC5C86A00A3C108 /* ScanditCaptureCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC9EAAFE2AC4635200CCCBEE = {
+			isa = PBXGroup;
+			children = (
+				DC9EAB092AC4635200CCCBEE /* SparkScanSwiftUI */,
+				DC9EAB082AC4635200CCCBEE /* Products */,
+				DC9EAC252AC4643700CCCBEE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DC9EAB082AC4635200CCCBEE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC9EAB072AC4635200CCCBEE /* SparkScanSwiftUI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC9EAB092AC4635200CCCBEE /* SparkScanSwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				DC9EAB0A2AC4635200CCCBEE /* SparkScanSwiftUIApp.swift */,
+				DC9EAB182AC4636500CCCBEE /* SparkScanSwiftUI.swift */,
+				DC9EAB1A2AC4638100CCCBEE /* SparkScanViewController.swift */,
+				DC9EAB0C2AC4635200CCCBEE /* ContentView.swift */,
+				DC9EAB0E2AC4635300CCCBEE /* Assets.xcassets */,
+				DC9EAD162AC475E500CCCBEE /* Info.plist */,
+				DC9EAB102AC4635300CCCBEE /* Preview Content */,
+			);
+			path = SparkScanSwiftUI;
+			sourceTree = "<group>";
+		};
+		DC9EAB102AC4635300CCCBEE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DC9EAB112AC4635300CCCBEE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DC9EAC252AC4643700CCCBEE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC9EAB062AC4635200CCCBEE /* SparkScanSwiftUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC9EAB152AC4635300CCCBEE /* Build configuration list for PBXNativeTarget "SparkScanSwiftUI" */;
+			buildPhases = (
+				DC9EAB032AC4635200CCCBEE /* Sources */,
+				DC9EAB042AC4635200CCCBEE /* Frameworks */,
+				DC9EAB052AC4635200CCCBEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SparkScanSwiftUI;
+			packageProductDependencies = (
+				DCD6116C2AC5C86A00A3C108 /* ScanditBarcodeCapture */,
+				DCD6116E2AC5C86A00A3C108 /* ScanditCaptureCore */,
+			);
+			productName = SparkScanSwiftUI;
+			productReference = DC9EAB072AC4635200CCCBEE /* SparkScanSwiftUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC9EAAFF2AC4635200CCCBEE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					DC9EAB062AC4635200CCCBEE = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = DC9EAB022AC4635200CCCBEE /* Build configuration list for PBXProject "SparkScanSwiftUI" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC9EAAFE2AC4635200CCCBEE;
+			packageReferences = (
+				DCD6116B2AC5C86A00A3C108 /* XCRemoteSwiftPackageReference "datacapture-spm" */,
+			);
+			productRefGroup = DC9EAB082AC4635200CCCBEE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC9EAB062AC4635200CCCBEE /* SparkScanSwiftUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC9EAB052AC4635200CCCBEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC9EAB122AC4635300CCCBEE /* Preview Assets.xcassets in Resources */,
+				DC9EAB0F2AC4635300CCCBEE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC9EAB032AC4635200CCCBEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC9EAB0D2AC4635200CCCBEE /* ContentView.swift in Sources */,
+				DC9EAB1B2AC4638100CCCBEE /* SparkScanViewController.swift in Sources */,
+				DC9EAB192AC4636500CCCBEE /* SparkScanSwiftUI.swift in Sources */,
+				DC9EAB0B2AC4635200CCCBEE /* SparkScanSwiftUIApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DC9EAB132AC4635300CCCBEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DC9EAB142AC4635300CCCBEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC9EAB162AC4635300CCCBEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SparkScanSwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = CCJEHQ4M9R;
+				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SparkScanSwiftUI/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.scandit.Test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DC9EAB172AC4635300CCCBEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SparkScanSwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = CCJEHQ4M9R;
+				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SparkScanSwiftUI/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.scandit.Test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC9EAB022AC4635200CCCBEE /* Build configuration list for PBXProject "SparkScanSwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC9EAB132AC4635300CCCBEE /* Debug */,
+				DC9EAB142AC4635300CCCBEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC9EAB152AC4635300CCCBEE /* Build configuration list for PBXNativeTarget "SparkScanSwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC9EAB162AC4635300CCCBEE /* Debug */,
+				DC9EAB172AC4635300CCCBEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DCD6116B2AC5C86A00A3C108 /* XCRemoteSwiftPackageReference "datacapture-spm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "git@github.com:Scandit/datacapture-spm.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.19.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DCD6116C2AC5C86A00A3C108 /* ScanditBarcodeCapture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DCD6116B2AC5C86A00A3C108 /* XCRemoteSwiftPackageReference "datacapture-spm" */;
+			productName = ScanditBarcodeCapture;
+		};
+		DCD6116E2AC5C86A00A3C108 /* ScanditCaptureCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DCD6116B2AC5C86A00A3C108 /* XCRemoteSwiftPackageReference "datacapture-spm" */;
+			productName = ScanditCaptureCore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = DC9EAAFF2AC4635200CCCBEE /* Project object */;
+}
